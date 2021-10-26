@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Navbar*/
+#navbar {
+  height: 200px;
+  opacity: .7;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  background-size: 1900px, 3500px;
+  background-position: 0% 8%;
+  background-image: url(https://media.dnd.wizards.com/styles/news_banner_header/public/images/head-banner/bg-heroes_0.jpg);
+  background-color: gray;
+}
+
+#navbar-brand {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  /* opacity: .7; */
+  font-size: 98px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+
+/*Home-Page*/
+
+/*Create-A-Character-Page*/
+h2 {
+  margin: 50px;
+  padding: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px !important;
+}
+
+label {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+form {
+  height: 600px;
+  background-position: center;
+  background-image: url(https://i.pinimg.com/originals/7c/da/56/7cda56a993abb38465b1fb2fc13bf8f1.png);
+  background-color: rgb(220, 233, 238);
+  color: white;
+}
+
+input[type=text], select {
+  background-color: white;
+  /* width: 80%; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+
+input:focus {
+  background-color: lightblue;
+  border: 3px solid darkblue;
+}
+
+select:focus:hover {
+  background-color: rgb(38, 243, 243);
+}
+
+.create-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-edit-button {
+  height: 75px;
+  width: 100px;
+  border: 3px double aqua !important;
+  background-size: 110px 77px;
+  background-position: center;
+  background-image: url(https://sm.ign.com/ign_nordic/news/d/dd-announc/dd-announces-tyranny-of-dragons-anniversary-collection_uvdm.jpg);
+  background-color: blue;
+}
+
+.create-edit-button h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 15px;
+}
+
+.cancel-button {
+  height: 75px;
+  width: 100px;
+  border: 3px double aqua !important;
+  background-size: 175px 175px;
+  background-position: 52% 40%;
+  background-image: url(http://insight.randomhouse.com/fullpage.do?pContentType=JPG&pName=fullpage&pISBN=9781684052752&pPageID=3);
+  background-color: crimson;
+}
+
+.cancel-button h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 15px;
+}
+
+
+
+
+
+/*Saved-Characters-Page*/
+.saved-characters-page {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* height: 1400px; */
+  background-color: thistle;
+}
+
+
+
+
+
+
+
+/*Not-Found-Page*/
+.not-found-page {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0px;
+  height: 1000px;
+  width: 1500px;
+  color: white;
+  background-color: rgb(37, 88, 71);
+}
+
+.not-found-page h2 {
+  padding: 20px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#d-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#d-map-img {
+  height: 750px;
+  width: 1200px;
+  border: 10px solid black;
+}
+
+
+/*Login-Page*/
+.login-page {
+  height: 900px;
+  width: 2000px;
+  background-size: 1900px, 2000px;
+  background-image: url(http://www.acrosstheboardgames.net/wp-content/uploads/oconnorbanner-800x500.jpg);
+  background-color: gray;
+}
+
+.login-c {
+  border: 10px double aqua !important;
+  /* border-style */
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.login-c-head {
+  background-color: rgb(24, 71, 44) !important;
+  color: aquamarine;
+  font-size: xx-large;
+}
+
+.login-c-body {
+  background-color: black;
+  color: aquamarine;
+}
+
+.login-c-foot {
+  background-color: rgb(24, 71, 44) !important; 
+}
+
+.login-c-button {
+  background-color: rgb(22, 22, 83) !important;  
+}
+
+.login-c-button-text {
+  color: white;  
+}
