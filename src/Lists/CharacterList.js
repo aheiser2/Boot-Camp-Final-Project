@@ -14,22 +14,22 @@ const CharacterList = (props) => (
         <tbody>
             {props.characters.length > 0 ? (
                 props.characters.map((character) => (
-            <tr key={character.id}>
-                <td>{character.name}</td>
-                <td>{character.race}</td>
-                <td>{character.rpgClass}</td>
-                <td>{character.level}</td>
-                <td>
-                    <button className="button muted-button" onClick={()=> props.editCharacter(character)}>Edit</button>
-                    <button className="button muted-button" onClick={()=> props.deleteCharacter(character.id)}>Delete</button>
-                </td>
-            </tr>
-            ))
-        ) : (
-            <tr>
-                <td colSpan={3}>No Characters</td>
-            </tr>
-        )}
+                    <tr key={character.id}>
+                        <td>{character.name}</td>
+                        <td>{character.race}</td>
+                        <td>{character.rpgClass}</td>
+                        <td>{character.level}</td>
+                        <td>
+                            <button className="button" onClick={()=> props.editCharacter(character)}>Edit</button>
+                            <button className="button" onClick={()=> props.deleteCharacter(character.id)}>Delete</button>
+                        </td>
+                    </tr>
+                    ))
+                ) : (
+                    <tr>
+                        <td colSpan={3}>No Characters</td>
+                    </tr>
+            )}
         </tbody>
     </table>
 )

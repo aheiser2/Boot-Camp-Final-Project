@@ -10,8 +10,8 @@ export default function NotFound() {
                 <img id="d-map-img" src="https://i.pinimg.com/originals/6a/78/79/6a7879a42ad6a6eb0862cc1f3bf09c8c.jpg" 
                 alt="DungeonMap" useMap="#DungeonMap"></img>
                 <map name="DungeonMap">
-                <area shape="default" href="/home"></area>
-            </map>
+                    <area shape="default" href="/home"></area>
+                </map>
             </div>
         </div>
     )

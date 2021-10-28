@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-import Navigation from '../Components/Navbar';
+import Navigation from '../Other-Components/Navbar';
 import { TEST_CHARACTERS } from '../Data.js';
 import EditCharacterForm from '../Forms/EditCharacterForm';
 import AddCharacterForm from '../Forms/AddCharacterForm';
 import CharacterList from '../Lists/CharacterList';
 
-
-
-const CreatorPage= () => {
+const CreatorPage = () => {
   const charactersData = TEST_CHARACTERS
 
   const [characters, setCharacters] = useState(charactersData)
@@ -35,7 +33,6 @@ const CreatorPage= () => {
     setEditing(false)
     setCharacters(characters.filter((character) => character.id !== id));
   }
-
 
   return (
     <React.Fragment>

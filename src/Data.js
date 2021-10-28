@@ -1,30 +1,23 @@
 export const TEST_CHARACTERS = [
     {
-        name: "Chidi",
-        race: "Half-Elf",
+        name: "Gandalf",
+        race: "Human",
         rpgClass: "Wizard",
-        level: "3",
+        level: "4",
         id: 0
     },
     {
-        name: "Eleanor",
+        name: "Grishnakh",
         race: "Orc",
         rpgClass: "Fighter",
         level: "2",
         id: 1
     },
     {
-        name: "Tahani",
+        name: "Tom Bombadil",
         race: "Elf",
         rpgClass: "Bard",
         level: "5",
         id: 2
     },
-    {
-        name: "Jason",
-        race: "Water Gnossi",
-        rpgClass: "Monk",
-        level: "4",
-        id: 3
-    }
 ]
